@@ -1,0 +1,59 @@
+{
+  "window.menuBarVisibility": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Fira Code, 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "600",
+  "workbench.colorTheme": "Tokyo Night",
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-b"],
+      "commands": ["workbench.action.toggleSidebarVisibility"],
+      "silent": true
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "l", "l"],
+      "commands": ["workbench.action.focusRightGroup"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "h", "h"],
+      "commands": ["workbench.action.focusLeftGroup"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "v", "s"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w!"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": [":wq!"]
+    }
+  ],
+  "editor.lineNumbers": "relative",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+

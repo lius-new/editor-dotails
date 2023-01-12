@@ -1,2 +1,3 @@
 # editor-dotails
-my editor dotails
+
+vscode 的一些配置文件
